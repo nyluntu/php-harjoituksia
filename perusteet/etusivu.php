@@ -1,10 +1,12 @@
+<?php 
+header('Content-Type: text/html; charset=utf-8'); 
+?>
 <html>
 <body>
 
 <h1>Turon ensimmäiset kotisivut</h1>
 
 <?php
-header('Content-Type: text/html; charset=utf-8'); 
 // Alustetaan muuttujia
 
 $otsikko = "Nelilaskin harjoitus";

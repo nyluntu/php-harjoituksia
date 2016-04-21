@@ -4,6 +4,7 @@
 include "asetustiedosto.php";
 
 // Yhteyden luominen
+//$yhteys = muodosta_mysql_yhteys();
 $yhteys = mysqli_connect($palvelimen_osoite, $mysql_kayttajatunnus, $mysql_salasana, $mysql_tietokanta);
 
 if(!$yhteys) {

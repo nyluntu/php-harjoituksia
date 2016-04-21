@@ -21,7 +21,7 @@ if(!$vastaus = $tietokantaOlio->query($sql)) {
 
 // Tarkistetaan onko yhtään löytynyttä riviä
 if(mysqli_num_rows($vastaus) > 0) {
-echo "<table>";
+		echo "<table>";
 		echo "<tr>";
 		echo "<th>Id</th>";
 		echo "<th>Etunimi</th>";
@@ -38,7 +38,7 @@ echo "<table>";
 		echo "<td>" . $rivi["arvosana"] . "</td>";
 		echo "</tr>";
 	}
-echo "</table>";
+		echo "</table>";
 }
 
 // Tyhjennetään haussa saadut tiedot muistista
