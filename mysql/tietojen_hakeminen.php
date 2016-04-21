@@ -21,7 +21,6 @@ if(!$vastaus = mysqli_query($yhteys, $sql)) {
 if(mysqli_num_rows($vastaus) > 0) {
 
 	while($rivi = mysqli_fetch_assoc($vastaus)) {
-	
 		echo "Id: " . $rivi["id"] . "<br/>";
 		echo "Etunimi: " . $rivi["etunimi"] . "<br/>";
 		echo "Sukunimi: " . $rivi["sukunimi"] . "<br/>";

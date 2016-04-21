@@ -9,7 +9,8 @@ if(!$yhteys) {
 	die("Yhteysvirhe: " . mysqli_connect_error());
 }
 
-$sql = "DELETE FROM suoritukset WHERE id = 2";
+$sql = "DELETE FROM suoritukset WHERE id = 1";
+
 
 if(mysqli_query($yhteys, $sql)) {
 	echo "Tietojen poistaminen onnistui!";

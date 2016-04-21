@@ -1,7 +1,7 @@
 <h4>Taulun luominen.php</h4>
 <?php
 
-include "asetustiedosto.php"
+include "asetustiedosto.php";
 
 // Yhteyden luominen
 $yhteys = mysqli_connect($palvelimen_osoite, $mysql_kayttajatunnus, $mysql_salasana, $mysql_tietokanta);

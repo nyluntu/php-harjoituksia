@@ -9,7 +9,7 @@ if(!$yhteys) {
 	die("Yhteysvirhe: " . mysqli_connect_error());
 }
 
-$sql = "UPDATE suoritukset SET etunimi = 'Tero' WHERE id = 3";
+$sql = "UPDATE suoritukset SET teeman_nimi = 'Matematiikka', arvosana = 0 WHERE id = 2";
 
 if(mysqli_query($yhteys, $sql)) {
 	echo "Tietojen päivitys onnistui!";
